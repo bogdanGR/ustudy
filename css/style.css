@@ -455,7 +455,7 @@ body {
 .header {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  height: 793px;
+  height: 787px;
   width: 1400px;
   margin: 0 auto; }
 
@@ -471,7 +471,7 @@ body {
 .header__language {
   display: block;
   float: right;
-  padding-top: 5px;
+  padding-top: 7px;
   margin-left: 32px;
   font-family: "AvenirNext DemiBold", Arial, sans-serif;
   font-size: 11px;
@@ -506,6 +506,10 @@ body {
   border-radius: 20px; }
 
 .header__user-link {
+  font-family: "Avenir medium";
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
   text-decoration: none;
   color: #fffefe; }
   .header__user-link:hover {
@@ -517,13 +521,13 @@ body {
     .header__user-link--entrance::after {
       position: absolute;
       content: '';
-      right: 5px;
-      top: 1px;
+      right: 15px;
+      top: -2px;
       height: 25px;
       border-right: 2px solid #b2aca7; }
 
 .header__wrapper {
-  margin-bottom: 250px; }
+  margin-bottom: 242px; }
   .header__wrapper::after {
     display: table;
     clear: both;
@@ -568,7 +572,7 @@ body {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  padding-right: 30px;
+  padding-right: 48px;
   font-family: "Avenir medium", Arial, sans-serif;
   font-size: 18px;
   line-height: 60px;
@@ -576,11 +580,15 @@ body {
   .main-menu__item::after {
     position: absolute;
     content: '';
-    right: 25px;
+    right: 45px;
     top: 37px;
     width: 8px;
     height: 6px;
     background: url("../img/dropdown-arrow.png") no-repeat; }
+  .main-menu__item:last-child {
+    padding-right: 0; }
+    .main-menu__item:last-child::after {
+      right: -4px; }
 
 .main-menu__link {
   display: block;
@@ -620,24 +628,29 @@ body {
 .main {
   margin-bottom: 50px;
   background-color: #faf8f6; }
-  .main::after {
-    display: table;
-    clear: both;
-    content: ""; }
-  .main::before {
-    display: table;
-    content: ""; }
 
 .main__img {
   position: relative;
-  left: -125px;
+  left: -124px;
   float: left;
   width: 490px;
   padding-top: 23px;
+  padding-bottom: 19px;
   height: 780px;
-  background: url("../img/guy.png") 0 55px no-repeat; }
+  background: url("../img/guy.png") 0 70px no-repeat; }
+
+.main__wrapper::after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+.main__wrapper::before {
+  display: table;
+  content: ""; }
 
 .offer {
+  position: relative;
+  left: -83px;
   float: right;
   width: 466px;
   padding-top: 60px;
