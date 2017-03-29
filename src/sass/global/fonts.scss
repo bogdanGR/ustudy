@@ -1,0 +1,22 @@
+@font-face {
+ font-family: "Avenir Regular";
+ font-style: normal;
+ font-weight: 400;
+ src: url("../fonts/AvenirNext-Regular.ttf") format("truetype");
+}
+@font-face {
+ font-family: "Avenir medium";
+ font-style: normal;
+ font-weight: 500;
+ src: local("AvenirNext medium"),
+ local("AvenirNext-medium"),
+ url("../fonts/AvenirNext-Medium.ttf") format("truetype");
+}
+@font-face {
+ font-family: "AvenirNext DemiBold";
+ font-style: normal;
+ font-weight: 700;
+ src: local("AvenirNext medium"),
+ local("AvenirNext-medium"),
+ url("../fonts/AvenirNext-DemiBold.ttf") format("truetype");
+}

@@ -1,0 +1,21 @@
+.btn {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 238px;
+  height: 62px;
+  background: #2856b3;
+  border-radius: 40px;
+  cursor: pointer;
+
+  font-family: "Avenir Regular", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.25s;
+  }
+}
