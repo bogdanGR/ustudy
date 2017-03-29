@@ -1,7 +1,7 @@
 .header {
 	background-image: url('../img/header-bg.jpg');
 	background-repeat: no-repeat;
-	height: 793px;
+	height: 787px;
   width: 1400px;
   margin: 0 auto;
 }
@@ -12,7 +12,7 @@
   display: block;
 
   float: right;
-  padding-top: 5px;
+  padding-top: 7px;
   margin-left: 32px;
 
   font-family: "AvenirNext DemiBold", Arial, sans-serif;
@@ -38,6 +38,7 @@
 .header__subtext {
   margin: 0;
   margin-top: 3px;
+
   font-family: "Avenir regular", Arial, sans-serif;
   font-size: 14px;
   color: #ffffff;
@@ -54,6 +55,11 @@
 
 }
 .header__user-link {
+  font-family: "Avenir medium";
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+
   text-decoration: none;
   color: #fffefe;
   &:hover {
@@ -66,8 +72,8 @@
     &::after {
       position: absolute;
       content: '';
-      right: 5px;
-      top: 1px;
+      right: 15px;
+      top: -2px;
       height: 25px;
       border-right: 2px solid #b2aca7;
     }
@@ -75,7 +81,7 @@
 }
 .header__wrapper {
   @include clearfix;
-  margin-bottom: 250px;
+  margin-bottom: 242px;
 }
 .header__title {
   margin: 0;

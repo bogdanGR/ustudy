@@ -16,7 +16,7 @@
   vertical-align: top;
   position: relative;
 
-  padding-right: 30px;
+  padding-right: 48px;
   font-family: "Avenir medium", Arial, sans-serif;
   font-size: 18px;
   line-height: 60px;
@@ -25,13 +25,19 @@
   &::after {
     position: absolute;
     content: '';
-    right: 25px;
+    right: 45px;
     top: 37px;
 
     width: 8px;
     height: 6px;
 
     background: url('../img/dropdown-arrow.png') no-repeat;
+  }
+  &:last-child {
+    padding-right: 0;
+    &::after {
+      right: -4px;
+    }
   }
 
 }

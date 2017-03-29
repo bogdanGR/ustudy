@@ -1,19 +1,22 @@
 .main {
-  position: relative;
-
-  @include clearfix;
   margin-bottom: 50px;
-  padding-bottom: 78px;
 
   background-color: #faf8f6;
 }
-.main__img {
-  position: absolute;
-  left: 18%;
-  top: 24px;
 
-  width: 480px;
+.main__img {
+  position: relative;
+  left: -124px;
+
+  float: left;
+  width: 490px;
   padding-top: 23px;
+  padding-bottom: 19px;
   height: 780px;
-  background: url('../img/guy.png') 0 42px no-repeat;
+
+  background: url('../img/guy.png') 0 70px no-repeat;
+}
+
+.main__wrapper {
+  @include clearfix;
 }
